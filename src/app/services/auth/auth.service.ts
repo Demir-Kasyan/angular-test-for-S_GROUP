@@ -19,7 +19,7 @@ export class AuthService {
     this.merge(this._HTTP.post('auth/login', credentials));
   }
   refreshAuth(): void {
-    this.merge(this._HTTP.post<SignInInfo>('auth/refresh'));
+    this.merge(this._HTTP.post('auth/refresh'));
   }
   private merge( obs: Observable<any> ): void{
     obs.subscribe(data => {
