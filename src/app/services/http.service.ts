@@ -11,7 +11,6 @@ export class HTTPService{
   private href: string = 'https://test.s-group.vn.ua/api/v1/';
 
   post<T>(url: string, body?: any): Observable<T>{
-    console.log(this.tokenStorage.getToken());
     return !body?this.http.post<T>(this.href+url,
       { headers: {'Access-Control-Allow-Origin': 'POST', Authorization: 'Bearer ' + this.tokenStorage.getToken() }}):
       this.http.post<T>(this.href+url, body,
