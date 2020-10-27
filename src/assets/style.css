@@ -1,0 +1,282 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@-webkit-keyframes opacify_0 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #6e9dc4;
+  }
+  100% {
+    fill: #6e9dc4;
+  }
+}
+@keyframes opacify_0 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #6e9dc4;
+  }
+  100% {
+    fill: #6e9dc4;
+  }
+}
+.triangle_0 {
+  -webkit-animation: opacify_0 3s linear infinite alternate;
+  animation: opacify_0 3s linear infinite alternate;
+}
+
+@-webkit-keyframes opacify_1 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #72a0c5;
+  }
+  100% {
+    fill: #72a0c5;
+  }
+}
+@keyframes opacify_1 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #72a0c5;
+  }
+  100% {
+    fill: #72a0c5;
+  }
+}
+.triangle_1 {
+  -webkit-animation: opacify_1 3s linear infinite alternate;
+  animation: opacify_1 3s linear infinite alternate;
+}
+
+@-webkit-keyframes opacify_2 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #75a2c7;
+  }
+  100% {
+    fill: #75a2c7;
+  }
+}
+@keyframes opacify_2 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #75a2c7;
+  }
+  100% {
+    fill: #75a2c7;
+  }
+}
+.triangle_2 {
+  -webkit-animation: opacify_2 3s linear infinite alternate;
+  animation: opacify_2 3s linear infinite alternate;
+}
+
+@-webkit-keyframes opacify_3 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #79a5c8;
+  }
+  100% {
+    fill: #79a5c8;
+  }
+}
+@keyframes opacify_3 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #79a5c8;
+  }
+  100% {
+    fill: #79a5c8;
+  }
+}
+.triangle_3 {
+  -webkit-animation: opacify_3 3s linear infinite alternate;
+  animation: opacify_3 3s linear infinite alternate;
+}
+
+@-webkit-keyframes opacify_4 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #7da7ca;
+  }
+  100% {
+    fill: #7da7ca;
+  }
+}
+@keyframes opacify_4 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #7da7ca;
+  }
+  100% {
+    fill: #7da7ca;
+  }
+}
+.triangle_4 {
+  -webkit-animation: opacify_4 3s linear infinite alternate;
+  animation: opacify_4 3s linear infinite alternate;
+}
+
+@-webkit-keyframes opacify_5 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #80a9cb;
+  }
+  100% {
+    fill: #80a9cb;
+  }
+}
+@keyframes opacify_5 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #80a9cb;
+  }
+  100% {
+    fill: #80a9cb;
+  }
+}
+.triangle_5 {
+  -webkit-animation: opacify_5 3s linear infinite alternate;
+  animation: opacify_5 3s linear infinite alternate;
+}
+
+@-webkit-keyframes opacify_6 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #84accd;
+  }
+  100% {
+    fill: #84accd;
+  }
+}
+@keyframes opacify_6 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #84accd;
+  }
+  100% {
+    fill: #84accd;
+  }
+}
+.triangle_6 {
+  -webkit-animation: opacify_6 3s linear infinite alternate;
+  animation: opacify_6 3s linear infinite alternate;
+}
+
+@-webkit-keyframes opacify_7 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #88aece;
+  }
+  100% {
+    fill: #88aece;
+  }
+}
+@keyframes opacify_7 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #88aece;
+  }
+  100% {
+    fill: #88aece;
+  }
+}
+.triangle_7 {
+  -webkit-animation: opacify_7 3s linear infinite alternate;
+  animation: opacify_7 3s linear infinite alternate;
+}
+
+@-webkit-keyframes opacify_8 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #8bb1d0;
+  }
+  100% {
+    fill: #8bb1d0;
+  }
+}
+@keyframes opacify_8 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #8bb1d0;
+  }
+  100% {
+    fill: #8bb1d0;
+  }
+}
+.triangle_8 {
+  -webkit-animation: opacify_8 3s linear infinite alternate;
+  animation: opacify_8 3s linear infinite alternate;
+}
+
+@-webkit-keyframes opacify_9 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #8fb3d1;
+  }
+  100% {
+    fill: #8fb3d1;
+  }
+}
+@keyframes opacify_9 {
+  0% {
+    fill: #6e9dc4;
+  }
+  70% {
+    fill: #8fb3d1;
+  }
+  100% {
+    fill: #8fb3d1;
+  }
+}
+.triangle_9 {
+  -webkit-animation: opacify_9 3s linear infinite alternate;
+  animation: opacify_9 3s linear infinite alternate;
+}

@@ -1,0 +1,13 @@
+.absolute{
+    background-color: white;
+    position: absolute;
+    z-index: 10000;
+    top: 0%; left: 0%;
+    width: 100%; height: 100%;
+}
+mat-card{
+    background-color: darkgray;
+    width: 30%; height: 60%;
+    margin-left: auto; margin-right: auto; margin-top: 9.5%;
+    text-align: center;
+}
