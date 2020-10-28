@@ -20,7 +20,6 @@ export class LoginRoute implements OnInit {
   constructor(private authService: AuthService, private tokenStorage: TokenStorageService, private router: Router, private toastr: ToastrService) { }
   ngOnInit(): void {
     if (this.tokenStorage.getToken()) {
-      console.log(this.tokenStorage.getToken());
       this.authority = this.tokenStorage.getAuthorities();
       if ( this.authority ){
         this.router.navigate(['home']);

@@ -12,6 +12,7 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class AuthService {
+  
   constructor(private _HTTP: HTTPService, private tokenStorage: TokenStorageService, private toastr: ToastrService, private router: Router) {
   }
 
@@ -19,7 +20,7 @@ export class AuthService {
     this.merge(this._HTTP.post('auth/login', credentials));
   }
   refreshAuth(): void {
-    this.merge(this._HTTP.post('auth/refresh'));
+    this.merge(this._HTTP.post<SignInInfo>('auth/refresh'));
   }
   private merge( obs: Observable<any> ): void{
     obs.subscribe(data => {
@@ -45,5 +46,7 @@ export class AuthService {
     }
     );
   }
-
+  logOunt(): void {
+    this._HTTP.post('auth/logout');
+  }
 }

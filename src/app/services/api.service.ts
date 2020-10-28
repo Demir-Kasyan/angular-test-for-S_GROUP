@@ -8,6 +8,13 @@ import { HTTPService } from './http.service';
 export class ApiService{
   constructor(private _HTTP: HTTPService){}
 
+  getFormFields(page?: number, per_page?: number, order_by?: string, order_direction?: string): Observable<any> {
+    return this._HTTP.get(`form_fields?`+
+                         (page?`page=${page+1}`:``)+
+                         (per_page?`&per_page=${per_page}`:``)+
+                         (order_by?`&order_by=${order_by}`:``)+
+                         (order_direction?`&order_direction=${order_direction}`:``));
+  }
   getForms(page?: number, per_page?: number, order_by?: string, order_direction?: string, search?: string,filters?: string): Observable<any> {
     return this._HTTP.get(`forms?`+
                          (page?`page=${page+1}`:``)+
